@@ -1,0 +1,29 @@
+﻿  TestOpenCV.cpp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+libcpmtd.lib(xmbtowc.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+ChangeImage.obj : error LNK2019: 无法解析的外部符号 __CrtDbgReportW，该符号在函数 "public: class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > & __thiscall std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator+=(int)" (??Y?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAEAAV01@H@Z) 中被引用
+libcpmtd.lib(stdthrow.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2019: 无法解析的外部符号 __free_dbg，该符号在函数 "int __cdecl std::_Getloctxt<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >(class std::istreambuf_iterator<char,struct std::char_traits<char> > &,class std::istreambuf_iterator<char,struct std::char_traits<char> > &,unsigned int,char const *)" (??$_Getloctxt@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@YAHAAV?$istreambuf_iterator@DU?$char_traits@D@std@@@0@0IPBD@Z) 中被引用
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(xdebug.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(cerr.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+ChangeImage.obj : error LNK2001: 无法解析的外部符号 __free_dbg
+TestOpenCV.obj : error LNK2001: 无法解析的外部符号 __free_dbg
+UseageOfMat.obj : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: 无法解析的外部符号 __free_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2019: 无法解析的外部符号 __calloc_dbg，该符号在函数 __Getctype 中被引用
+libcpmtd.lib(xlocale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2019: 无法解析的外部符号 __malloc_dbg，该符号在函数 "public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QAEAAV01@PBD@Z) 中被引用
+libcpmtd.lib(xdebug.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: 无法解析的外部符号 __malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2019: 无法解析的外部符号 __realloc_dbg，该符号在函数 "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z) 中被引用
+F:\Temporary\VS-2015-Projects\MyProject\Debug\TestOpenCV.exe : fatal error LNK1120: 5 个无法解析的外部命令

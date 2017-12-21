@@ -1,0 +1,5 @@
+﻿  Template_match_1.cpp
+f:\temporary\vs-2015-projects\myproject\ip_book\template_match_1.cpp(24): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+f:\temporary\vs-2015-projects\myproject\ip_book\template_match_1.cpp(31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+f:\temporary\vs-2015-projects\myproject\ip_book\template_match_1.cpp(31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  IP_book.vcxproj -> F:\Temporary\VS-2015-Projects\MyProject\Debug\IP_book.exe

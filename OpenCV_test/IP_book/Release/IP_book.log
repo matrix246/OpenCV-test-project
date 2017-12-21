@@ -1,0 +1,14 @@
+﻿  chp09_HomeWork.cpp
+  Gray_morphology.cpp
+  IP_book.cpp
+  Line_Point_dection.cpp
+Line_Point_dection.cpp(466): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+Line_Point_dection.cpp(474): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+Line_Point_dection.cpp(482): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+  Morphology_Operate.cpp
+  My_funs.cpp
+  SegWord1.cpp
+  SegWord2.cpp
+  正在生成代码
+  已完成代码的生成
+  IP_book.vcxproj -> F:\Temporary\VS-2015-Projects\MyProject\Release\IP_book.exe

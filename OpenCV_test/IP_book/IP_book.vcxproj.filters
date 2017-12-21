@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\chp09">
+      <UniqueIdentifier>{25b510f5-0fad-4832-9869-c852c3f00934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chp10">
+      <UniqueIdentifier>{04f953ab-33a1-4b1d-b6c9-6aa6795b9a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SegWord">
+      <UniqueIdentifier>{18e6801f-fc5e-445a-9f06-394dfb838045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IPbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chp09.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="My_funs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chp10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SegWord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IP_book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Morphology_Operate.cpp">
+      <Filter>源文件\chp09</Filter>
+    </ClCompile>
+    <ClCompile Include="Gray_morphology.cpp">
+      <Filter>源文件\chp09</Filter>
+    </ClCompile>
+    <ClCompile Include="My_funs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chp09_HomeWork.cpp">
+      <Filter>源文件\chp09</Filter>
+    </ClCompile>
+    <ClCompile Include="Line_Point_dection.cpp">
+      <Filter>源文件\chp10</Filter>
+    </ClCompile>
+    <ClCompile Include="SegWord1.cpp">
+      <Filter>源文件\SegWord</Filter>
+    </ClCompile>
+    <ClCompile Include="SegWord2.cpp">
+      <Filter>源文件\SegWord</Filter>
+    </ClCompile>
+    <ClCompile Include="Template_match_1.cpp">
+      <Filter>源文件\SegWord</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
